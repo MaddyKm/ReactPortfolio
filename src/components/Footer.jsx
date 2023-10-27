@@ -15,13 +15,19 @@ const styles = {
   buttons: {
     margin: ".5em",
   },
+  footer: {
+    position: "absolute",
+    width: "100%",
+    padding: ".25em",
+    backgroundImage: "url(../src/assets/cool-background.png)",
+  },
 };
 
 export default function Footer() {
   return (
     <>
       <div className="blockcode">
-        <footer className="page-footer shadow">
+        <footer className="page-footer shadow" style={styles.footer}>
           <div className="d-flex flex-wrap justify-content-between align-items-center mx-auto py-4">
             <div className="d-flex flex-wrap align-items-center">
               <small className="ms-2">&copy; Maddy Kasemichael, 2023.</small>
