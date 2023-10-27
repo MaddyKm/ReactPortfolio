@@ -1,15 +1,44 @@
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <br />
+      <h2>Contact Me</h2>
+      <form>
+        <div className="form-group">
+          <label htmlFor="exampleFormControlInput1">Name</label>
+          <input
+            type="text"
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Your Name"
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="exampleFormControlInput1">Email address</label>
+          <input
+            type="email"
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="exampleFormControlTextarea1">Message</label>
+          <textarea
+            className="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <br />
+        <button type="submit" className="btn btn-primary">
+          Submit
+        </button>
+      </form>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

@@ -1,7 +1,26 @@
+import "../styles.css";
+const styles = {
+  about: {
+    width: "45%",
+    marginLeft: "auto",
+    marginRight: "auto",
+    display: "block",
+  },
+  header: {
+    display: "flex",
+    justifyContent: "space-between",
+    padding: "1em",
+    borderBottom: "grey",
+    backgroundImage: "url(../src/assets/cool-background.png)",
+  },
+  nav: {
+    color: "black",
+  },
+};
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <li style={styles.nav}>
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
@@ -10,7 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li style={styles.nav}>
         <a
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
@@ -21,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li style={styles.nav}>
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
@@ -30,7 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li style={styles.nav}>
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
