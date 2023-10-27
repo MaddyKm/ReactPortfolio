@@ -11,6 +11,7 @@ const styles = {
     marginLeft: "auto",
     marginRight: "auto",
     display: "block",
+    minHeight: "100vh",
   },
   header: {
     display: "flex",

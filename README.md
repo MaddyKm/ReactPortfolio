@@ -1,8 +1,39 @@
-# React + Vite
+# Maddy Kasemichael Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![MIT](https://img.shields.io/badge/License-MIT-blue)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A portfolio of recent works that showcase my abilities.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+
+You are able to view this on the web at:
+
+## License
+
+MIT
+
+## Contributing
+
+If you'd like to contribute, send a PR, or reach out at the questions tab below.
+
+## Tests
+
+No included test
+
+## Questions
+
+If you have any questions you can contact me at the options below:
+
+- [github](https://github.com/MaddyKM)
+- [mmkasemichael@gmail.com](mailto:mmkasemichael@gmail.com)
