@@ -1,0 +1,8 @@
+.smallerwork {
+  display: flex;
+  flex: 1 0 50%;
+  flex-wrap: wrap;
+  box-shadow: 5px 8px 10px var(--accentblue);
+  border-radius: 10px;
+  padding: 1em;
+}

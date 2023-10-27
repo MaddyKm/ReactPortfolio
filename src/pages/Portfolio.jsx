@@ -1,12 +1,38 @@
+const styles = {
+  about: {
+    width: "45%",
+    marginLeft: "auto",
+    marginRight: "auto",
+    display: "block",
+  },
+  header: {
+    display: "flex",
+    justifyContent: "space-between",
+    padding: "1em",
+    borderBottom: "grey",
+    backgroundImage: "url(../src/assets/cool-background.png)",
+  },
+  img: {
+    display: "flex",
+    flex: "1 0 50%",
+    flexWrap: "wrap",
+    boxShadow: "5px 8px 10px var(--accentblue)",
+    borderRadius: 10,
+    padding: "1em",
+  },
+};
+import "./portfolio.css";
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio </h1>
+      <br />
+      <h2>Portfolio </h2>
       <section id="work" className="column">
         <a
           className="smallerwork"
           href="https://pet-play-ground-b3dfbe3f359a.herokuapp.com/login"
           target="blank"
+          style={styles.img}
         >
           <img
             className="site"
